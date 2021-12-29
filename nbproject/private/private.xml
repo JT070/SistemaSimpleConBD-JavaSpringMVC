@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/controladorTclientes.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/altaEmpleado.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/ControladorAudiEmpleado.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/listaCliente.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/ControladorEmpleado.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/entidad/Celular.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/entidad/Tienda.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/editarEmpleado.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/listaTcliente.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/controladorClientes.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/listaAudTienda.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/EditarCelular.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/ListaAudiCelular.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/listaTienda.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/listaEmpleado.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/config/ConexionDB.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/entidad/Clientes.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/controladorTienda.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/listaAudEmpleado.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/controladorAudTienda.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/ListaCelular.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/CtrlrCelularAudi.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/entidad/Empleado.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/src/java/Controlador/CtrlrCelular.java</file>
+            <file>file:/C:/Users/PC/Desktop/proyectoMVC/web/WEB-INF/jsp/InsertCelular.jsp</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- was: <?xml version="1.0" encoding="UTF-8"?> -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
+
+    <!--
+    Most controllers will use the ControllerClassNameHandlerMapping above, but
+    for the index controller we are using ParameterizableViewController, so we must
+    define an explicit mapping for it.
+    -->
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <!-- Tienda-->
+                <prop key="altaTienda.htm">Tienda</prop>
+                <prop key="editarTienda.htm">Tienda</prop>
+                <prop key="listaTienda.htm">Tienda</prop>
+                <prop key="eliminarTienda.htm">Tienda</prop>
+                <prop key="altaTienda.htm">Tienda</prop>
+                <prop key="buscarTienda.htm">Tienda</prop>
+                <prop key="buscarAudTienda.htm">AuditoriaTienda</prop>
+                <prop key="listaAudTienda.htm">AuditoriaTienda</prop>
+                 <!-- Celular -->
+                <prop key="index.htm">index</prop>
+                <prop key="InsertCelular.htm">celular</prop>
+                <prop key="ListaCelular.htm">celular</prop>
+                <prop key="EditarCelular.htm">celular</prop>
+                <prop key="EliminarCelular.htm">celular</prop>
+                <prop key="buscar.htm">audicelular</prop>
+                <prop key="ListaAudiCelular.htm">audicelular</prop>
+                <!-- Cliente -->
+                <prop key="altaCliente.htm">cliente</prop>
+                <prop key="listaCliente.htm">cliente</prop>
+                <prop key="editarCliente.htm">cliente</prop>
+                <prop key="eliminarCliente.htm">cliente</prop>
+                <prop key="listaTcliente.htm">Tcliente</prop>
+               
+                <!-- Empleado -->
+                <prop key="altaEmpleado.htm">Empleado</prop>
+                <prop key="editarEmpleado.htm">Empleado</prop>
+                <prop key="eliminarEmpleado.htm">Empleado</prop>
+                <prop key="listaEmpleado.htm">Empleado</prop>
+                <prop key="buscarEmpleado.htm">Empleado</prop>
+                <prop key="listaAudEmpleado.htm">auditoriaEmpleado</prop>
+                
+            </props>
+        </property>
+    </bean>
+
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/jsp/"
+          p:suffix=".jsp" />
+    <!--
+    The index controller.
+    -->
+    <bean name = "index"
+        class = "org.springframework.web.servlet.mvc.ParameterizableViewController" />
+    <bean name="Tienda"
+          class="Controlador.controladorTienda"/>
+    <bean name="AuditoriaTienda"
+          class="Controlador.controladorAudTienda"/>
+    <bean name = "celular" 
+          class = "Controlador.CtrlrCelular" />
+    <bean name = "audicelular" 
+          class = "Controlador.CtrlrCelularAudi" />
+    <bean name = "cliente" 
+          class="Controlador.controladorClientes"/>
+    <bean name = "Tcliente" 
+          class="Controlador.controladorTclientes"/>
+    <bean name = "Empleado" 
+          class="Controlador.ControladorEmpleado"/>
+    <bean name = "auditoriaEmpleado" 
+          class="Controlador.ControladorAudiEmpleado"/>
+
+</beans>
